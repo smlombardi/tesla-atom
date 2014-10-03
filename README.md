@@ -6,11 +6,11 @@ Tesla syntax theme for Atom
 Optimized for front-end development, SCSS, CSS, HTML, PHP, and JS
 
 ##PHP
-/Users/stevelombardi/Desktop/php.jpg
+![](https://github.com/smlombardi/tesla-atom/i/php.jpg)
 
 
 ##SCSS
-/Users/stevelombardi/Desktop/scss.jpg
+![](https://github.com/smlombardi/tesla-atom/i/scss.jpg)
 
 ##JS
-/Users/stevelombardi/Desktop/js.jpg
+![](https://github.com/smlombardi/tesla-atom/i/js.jpg)
