@@ -1,10 +1,10 @@
 {
-  "name": "Tesla",
+  "name": "tesla-atom",
   "theme": "syntax",
   "version": "0.0.0",
   "description": "A clean theme for front-end work",
-  "author": "Steve Lombardi",
-  "repository": "",
+  "owner": "smombardi",
+  "repository": "https://github.com/smlombardi/tesla-atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
