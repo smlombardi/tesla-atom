@@ -1,0 +1,12 @@
+{
+  "name": "Tesla",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A clean theme for front-end work",
+  "author": "Steve Lombardi",
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
