@@ -1,7 +1,7 @@
 {
   "name": "tesla-atom",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A clean theme for front-end work",
   "owner": "smombardi",
   "repository": "https://github.com/smlombardi/tesla-atom",
