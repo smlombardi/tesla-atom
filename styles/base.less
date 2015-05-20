@@ -40,17 +40,15 @@
   border: @syntax-result-marker-color-selected;
 }
 
-.editor.is-focused .cursor {
+atom-text-editor.is-focused .cursor, :host.is-focused .cursor {
   border-color: @syntax-cursor-color;
 }
 
-.editor.is-focused .selection .region {
+atom-text-editor.is-focused .selection .region, :host.is-focused .selection .region {
   background-color: @syntax-selection-color;
 }
 
-// .editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
-//   background-color: #303030;
-// }
+
 
 .comment {
   color: #777777;
