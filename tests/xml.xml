@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="http://foo/bar">
+
+    <!-- XML stuff -->
+    <url>foo &amp; bar</url>
+
+</root>

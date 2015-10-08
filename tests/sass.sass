@@ -1,0 +1,71 @@
+@charset "UTF-8"
+
+// Importing
+
+@import "bar"
+
+// Standard Selectors/properties
+
+#id-selector
+  width: 100%
+  height: 50px
+  color: #fff
+  background-color: rgb(1, 2, 3)
+  border-color: hsl(1, 2, 3)
+  text-decoration: underline !important
+
+.class-selector, p
+  font-weight: normal
+  font-size: 1em
+  background-image: url("foo/bar.png")
+
+// A few less common selectors
+
+.foo > .bar, a[href=foo], .foo + .bar
+  font-family: Arial, "Helvetica", sans-serif
+
+// Media queries
+
+@media screen and (device-width: 768px)
+  .foo
+
+// Nested selectors
+
+.foo
+  .bar
+    color: #f00
+  &.baz
+    color: #0f0
+
+// Variables
+
+$my-variable: bold
+
+.foo
+  font-weight: $my-variable
+
+// Extends/mixins/functions
+
+.bar
+  @extend .foo
+
+=foo($abc, $def)
+  color: #00f
+
+.bar
+  +foo
+
+@function foo($a)
+  @return $a + 1
+
+.bar
+  height: foo(100px)
+
+// Control directives
+
+@if $weight == bold
+  .foo
+
+// Placeholder selectors
+
+%foo
