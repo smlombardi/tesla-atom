@@ -1,7 +1,7 @@
 tesla-atom
 ==========
 
-Tesla syntax theme for Atom. Updated to 2.0 to fix errors and more colorful goodness.
+Tesla syntax theme for Atom. Updated to 3.0 to fix errors and more colorful goodness.
 
 Optimized for front-end development, SCSS, CSS, HTML, PHP, and JS
 
