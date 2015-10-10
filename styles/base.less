@@ -75,7 +75,10 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
     color: #f4eeaf;
 }
 .keyword.control, .parameter {
-    color: #e4cf94;
+    color: @hippie-blue;
+}
+.keyword.operator.logical {
+  color: @rob-roy;
 }
 
 .meta {
@@ -143,6 +146,21 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 //         color: #dedede;
 //     }
 // }
+
+// PHP
+.punctuation.section.embedded.begin.php, .punctuation.section.embedded.end.php {
+  color: @dark-sea-green;
+}
+.meta.function-call.php {
+  color: @cadetblue;
+}
+.support.function.construct.php {
+  color:@dark-khaki;
+}
+.variable.other.php {
+    color: @ship-cove-light;
+}
+
 
 // CSS, LESS, Sass, SCSS
 .source.css, .source.sass {
